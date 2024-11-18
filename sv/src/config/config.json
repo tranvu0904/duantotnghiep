@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "root",
+    "password": "",
+    "database": "phongtro123",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false
+    
+  },
+  "production": {
+    "username": "db_rentroom_user",
+    "password": "4ZlYiSRKOYA1yxyOo9pv9r3AQSUvXMJA",
+    "database": "db_rentroom",
+    "host": "dpg-cpk53gmd3nmc73fojvqg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "logging": false,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
